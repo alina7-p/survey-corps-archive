@@ -73,4 +73,4 @@ The forms have no backend;
 passwords and messages are not sent or saved.
 
 - Existing repository: https://github.com/asemtygelbaeva-byte/survey-corps-archive
-- Website: https://asemtygelbaeva-byte.github.io/survey-corps-archive/
+- Website: https://alina7-p.github.io/survey-corps-archive/
