@@ -1,31 +1,20 @@
-# Survey Corps Archive
+# Final project - Survey Corps Archive (Attack on Titan fan website)
 
-Attack on Titan fan website for the Web Technologies endterm project.
-Group: SE-2540. Team: Assem Tugelbay, Zhansaya Boranbaikyzy, Alina Ibadulla.
+Student: Alina Ibadulla, Zhansaya Boranbaykyzy, Assem Tugelbay | SE-2540
 
-The project continues our midterm website with the same topic. It now has seven pages.
+Teacher: WEB Technologies 1 (Front End) | Gulfiya Usserbayeva
+
+The project continues our midterm and endterm website with the same topic. It now has 7 pages.
 
 ## Pages
 
 - `index.html` — home, walls and characters.
 - `about.html` — story, military branches and commanders.
-- `titans.html` — Titan table, search, filters, editing and image gallery.
+- `titans.html` — titan table, search, filters, editing and image gallery.
 - `episodes.html` — season cards and episode guides.
 - `characters.html` — live character database loaded from a public API.
 - `signin.html` — sign-in form and account panel.
 - `join.html` — registration form and downloadable fan recruit card.
-
-## Endterm features
-
-- Required name, email, password, confirmation and message fields.
-- Email check with RegEx, live error messages and a password strength meter.
-- Case-insensitive live search combined with status category buttons.
-- A table rendered from JavaScript data: add, view, edit and delete records.
-  Records are saved in `localStorage` and a button restores the original nine.
-- A styled confirmation dialog before deleting or restoring records.
-- A Bootstrap gallery with a lightbox, Previous/Next buttons and keyboard arrows.
-- jQuery `fadeIn()` and `fadeOut()` for the image viewer.
-- Simpler shared CSS and responsive layouts for desktop, tablet and mobile.
 
 ### Light / dark theme
 - The button in the header switches themes on every page.
@@ -43,7 +32,7 @@ The project continues our midterm website with the same topic. It now has seven 
 - Sign out removes `sca-user`. Favourites are kept per email for the next sign-in.
 
 ### jQuery FAQ
-- Seven questions on the home page (`#faq`).
+- 7 questions on the home page (`#faq`).
 - Each answer opens and closes with `.slideToggle()`; the + / − indicator and
   `aria-expanded` change with it.
 
@@ -68,11 +57,9 @@ The project continues our midterm website with the same topic. It now has seven 
 
 HTML5, CSS3, Bootstrap 5, JavaScript and jQuery 3.7.1.
 Libraries, images and fonts are included locally. Only the Characters page needs the internet.
-Main files: `css/style.css` and `js/script.js`.
+
 
 ## Team responsibilities
-
-The division of pages follows the midterm project:
 
 - Assem Tugelbay — home page, shared header/footer and CSS.
 - Zhansaya Boranbaikyzy — lore page, Titan table, search and gallery.
@@ -82,19 +69,8 @@ The division of pages follows the midterm project:
 
 Open `index.html` in a browser. No installation or build is needed.
 Table changes, theme, sign-in and favourites are saved in this browser's `localStorage`.
-The characters page needs an internet connection for the API. The forms have no backend;
+The forms have no backend;
 passwords and messages are not sent or saved.
 
 - Existing repository: https://github.com/asemtygelbaeva-byte/survey-corps-archive
 - Website: https://asemtygelbaeva-byte.github.io/survey-corps-archive/
-
-To publish this update, replace the files in the existing repository and keep
-GitHub Pages enabled. These links are from the midterm project; this local
-archive does not update the online version automatically.
-
-## Credits
-
-Images and references are listed in [ASSET_SOURCES.md](ASSET_SOURCES.md).
-Character data comes from the [Jikan API](https://jikan.moe/) (unofficial MyAnimeList API).
-Attack on Titan belongs to its original rights holders. This is an unofficial student project.
-Bootstrap and jQuery use the MIT license; fonts include their OFL license files.
